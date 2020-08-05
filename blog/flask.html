@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Flask | Mr and Mrs Li</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/logo.png">
+    <meta name="description" content="个人博客站，分享个人学习笔记个人生活记录。">
+    <link rel="preload" href="/assets/css/0.styles.8985c895.css" as="style"><link rel="preload" href="/assets/js/app.67f99543.js" as="script"><link rel="preload" href="/assets/js/2.4bf6c67a.js" as="script"><link rel="preload" href="/assets/js/10.0d2e3a77.js" as="script"><link rel="prefetch" href="/assets/js/11.108e04c9.js"><link rel="prefetch" href="/assets/js/12.8b89975f.js"><link rel="prefetch" href="/assets/js/13.4d037f62.js"><link rel="prefetch" href="/assets/js/14.122a630d.js"><link rel="prefetch" href="/assets/js/15.8fae0d13.js"><link rel="prefetch" href="/assets/js/16.2e90f560.js"><link rel="prefetch" href="/assets/js/17.c85dce0e.js"><link rel="prefetch" href="/assets/js/18.9956a868.js"><link rel="prefetch" href="/assets/js/19.7053447a.js"><link rel="prefetch" href="/assets/js/3.1a6329e4.js"><link rel="prefetch" href="/assets/js/4.c879697a.js"><link rel="prefetch" href="/assets/js/5.f1984629.js"><link rel="prefetch" href="/assets/js/6.3e320468.js"><link rel="prefetch" href="/assets/js/7.909d630b.js"><link rel="prefetch" href="/assets/js/8.7f8c97df.js"><link rel="prefetch" href="/assets/js/9.79f2d8ef.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8985c895.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Mr and Mrs Li</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/videos/" class="nav-link">
+  Video
+</a></div><div class="nav-item"><a href="/photos/" class="nav-link">
+  Photo
+</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">
+  Blog
+</a></div> <a href="https://github.com/lixinxingwork/myvuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    查看源码
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/videos/" class="nav-link">
+  Video
+</a></div><div class="nav-item"><a href="/photos/" class="nav-link">
+  Photo
+</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">
+  Blog
+</a></div> <a href="https://github.com/lixinxingwork/myvuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    查看源码
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/blog/" aria-current="page" class="sidebar-link">工作导航页</a></li><li><a href="/blog/flask.html" aria-current="page" class="active sidebar-link">Flask</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/flask.html#简介" class="sidebar-link">简介</a></li><li class="sidebar-sub-header"><a href="/blog/flask.html#依赖" class="sidebar-link">依赖</a></li><li class="sidebar-sub-header"><a href="/blog/flask.html#python-pip3编译安装" class="sidebar-link">python pip3编译安装</a></li><li class="sidebar-sub-header"><a href="/blog/flask.html#构建开发环境" class="sidebar-link">构建开发环境</a></li><li class="sidebar-sub-header"><a href="/blog/flask.html#快速入门" class="sidebar-link">快速入门</a></li><li class="sidebar-sub-header"><a href="/blog/flask.html#唯一url-重定向行为" class="sidebar-link">唯一URL /重定向行为</a></li><li class="sidebar-sub-header"><a href="/blog/flask.html#url-for-测试" class="sidebar-link">url_for 测试</a></li><li class="sidebar-sub-header"><a href="/blog/flask.html#http方法" class="sidebar-link">HTTP方法</a></li><li class="sidebar-sub-header"><a href="/blog/flask.html#错误页面编辑" class="sidebar-link">错误页面编辑</a></li></ul></li><li><a href="/blog/genymotion.html" class="sidebar-link">Genymotion 安卓模拟器</a></li><li><a href="/blog/makdown.html" class="sidebar-link">makdown</a></li><li><a href="/blog/python.html" class="sidebar-link">Python 的应用实例</a></li><li><a href="/blog/verynginx.html" class="sidebar-link">Verynginx</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="flask">Flask</h1> <h2 id="简介">简介</h2> <p>基于Python网络框架开发的常用知识,及目前的4种主流Python网络框架：Django（最早、最完备）、Tornado（2009年，支持异步高并发）、Flask（2010年，着眼于小项目）、Twisted。</p> <h2 id="依赖">依赖</h2> <ul><li><p><code>Werkzeug</code>实现WSGI，这是应用程序和服务器之间的标准Python接口。</p></li> <li><p><code>Jinja</code>是一种模板语言，可呈现您的应用程序服务的页面。</p></li> <li><p><code>MarkupSafe</code>随<code>Jinja</code>一起提供。渲染模板时，它会逃脱不受信任的输入，以避免注入攻击。</p></li> <li><p><code>ItsDangerous</code>安全签名数据以确保其完整性。这用于保护Flask的会话cookie。</p></li> <li><p><code>Click</code>是用于编写命令行应用程序的框架。它提供flask命令，并允许添加自定义管理命令。</p></li></ul> <h2 id="python-pip3编译安装">python pip3编译安装</h2> <div class="language- extra-class"><pre class="language-text"><code>安装模块
+wget --no-check-certificate  https://pypi.python.org/packages/source/s/setuptools/setuptools-19.6.tar.gz#md5=c607dd118eae682c44ed146367a17e26
+
+tar -zxvf setuptools-19.6.tar.gz
+
+cd setuptools-19.6.tar.gz
+
+python3 setup.py build
+
+python3 setup.py install
+
+正式安装
+wget --no-check-certificate  https://pypi.python.org/packages/source/p/pip/pip-8.0.2.tar.gz#md5=3a73c4188f8dbad6a1e6f6d44d117eeb
+
+tar -zxvf pip-8.0.2.tar.gz
+
+cd pip-8.0.2
+
+python3 setup.py build
+
+python3 setup.py install
+</code></pre></div><h2 id="构建开发环境">构建开发环境</h2> <div class="language- extra-class"><pre class="language-text"><code>cd pythonWeb
+sudo apt-get install python3-venv
+python3 -m venv venv
+进入虚拟环境
+. venv/bin/activate
+pip3 install Flask
+</code></pre></div><h2 id="快速入门">快速入门</h2> <p>一个最小的Flask应用程序看起来像这样：</p> <div class="language- extra-class"><pre class="language-text"><code>from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+</code></pre></div><p>要运行该应用程序，您可以使用flask命令或-m将Flask与python 一起使用。在执行此操作之前，您需要通过导出FLASK_APP环境变量来告诉终端应用程序可以使用 ：</p> <div class="language- extra-class"><pre class="language-text"><code>$ export FLASK_APP=hello.py
+$ flask run
+ * Running on http://127.0.0.1:5000/
+外部访问
+$ flask run --host=0.0.0.0
+ * Running on http://0.0.0.0:5000/
+</code></pre></div><h2 id="唯一url-重定向行为">唯一URL /重定向行为</h2> <div class="language- extra-class"><pre class="language-text"><code>@app.route('/projects/')
+def projects():
+    return 'The project page'
+
+@app.route('/about')
+def about():
+    return 'The about page'
+</code></pre></div><p>projects端点的规范URL 带有斜杠。它类似于文件系统中的文件夹。如果您访问的URL不带斜杠，Flask会将您重定向到带斜杠的规范URL。</p> <p>about端点的规范URL 不带斜杠。它类似于文件的路径名。使用斜杠访问URL会产生404“未找到”错误。这有助于使这些资源的URL保持唯一，从而有助于搜索引擎避免对同一页面进行两次索引。</p> <h2 id="url-for-测试">url_for 测试</h2> <div class="language- extra-class"><pre class="language-text"><code>from flask import Flask,url_for
+from markupsafe import escape
+
+
+app = Flask(__name__)
+print (__name__)
+
+
+@app.route('/')
+def index():
+    return 'Index Page'
+
+@app.route('/hello')
+def hello():
+    return 'Hello, World'
+
+@app.route('/user/&lt;username&gt;')
+def show_user_profile(username):
+    # show the user profile for that user
+    return 'Hellow User %s' % escape(username)
+
+@app.route('/post/&lt;int:post_id&gt;')
+def show_post(post_id):
+    # show the post with the given id, the id is an integer
+    return 'Post %d' % post_id
+
+@app.route('/path/&lt;path:subpath&gt;')
+def show_subpath(subpath):
+    # show the subpath after /path/
+    return 'Subpath %s' % escape(subpath)
+
+
+@app.route('/projects/')
+def projects():
+    return 'The project page'
+
+@app.route('/about')
+def about():
+    return 'The about page'
+
+with app.test_request_context():
+    print(url_for('index'))
+    print(url_for('hello'))
+    print(url_for('show_post', post_id='123'))
+    print(url_for('show_user_profile', username='John Doe'))
+</code></pre></div><p>运行结果：</p> <div class="language- extra-class"><pre class="language-text"><code>hellow
+/
+/hello
+/post/123
+/user/John%20Doe
+</code></pre></div><h2 id="http方法">HTTP方法</h2> <p>默认情况下，Flask路由仅响应GET请求。</p> <div class="language- extra-class"><pre class="language-text"><code>from flask import request
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        return do_the_login()
+    else:
+        return show_the_login_form()
+</code></pre></div><h2 id="错误页面编辑">错误页面编辑</h2> <div class="language- extra-class"><pre class="language-text"><code>@app.errorhandler(404)
+def page_not_found(error):
+    return 'This page does not exist', 404
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/lixinxingwork/myvuepress/edit/theme-defalut/docs/blog/flask.md" target="_blank" rel="noopener noreferrer">帮助我们改善此页面！</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/" class="prev router-link-active">
+        工作导航页
+      </a></span> <span class="next"><a href="/blog/genymotion.html">
+        Genymotion 安卓模拟器
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.67f99543.js" defer></script><script src="/assets/js/2.4bf6c67a.js" defer></script><script src="/assets/js/10.0d2e3a77.js" defer></script>
+  </body>
+</html>
